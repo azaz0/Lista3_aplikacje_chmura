@@ -2,6 +2,7 @@
 
 
 ## ZAD 1
+
 Korzystając z biblioteki logging napisz funkcję, która zwraca logi na wybranym przez
 użytkownika levelu (DEBUG, INFOR itp.) oraz formatuje zwracane informacje (w
 dokumentacji Python logging znajdziesz opcje formatu). Biblioteka logging ma wiele
@@ -11,6 +12,7 @@ kompaktowa (mało kodu).
 ### print_logs.py
 
 ## ZAD 2
+
 Utwórz funkcje, która będzie szyfrowała tekst za pomocą base64. Funkcja ma być prosta i
 kompaktowa (mało kodu). Funkcja powinna przyjmować dowolnej długości string. Funkcja
 powinna działać prawidłowo w dowolnym edytorze kodu online. Proszę pamiętać o
@@ -21,6 +23,7 @@ powinien być identyczny jak pierwotny niezaszyfrowany tekst.
 ### create_safe_password.py
 
 ## ZAD 3 
+
 W dowolnym języku programowania utwórz funkcje, która będzie tworzyła bezpieczne
 hasło. Funkcja ma być prosta i kompaktowa (mało kodu). Funkcja nie przyjmuje żadnych
 argumentów. Hasło, które ma być wynikiem funkcji powinno być:
