@@ -22,5 +22,6 @@ def generate_password():
 
     return password
 
-#Wykorzystanie list comprehension
+
+# Wykorzystanie list comprehension
 print("Generated passwords (test for 1000 password): \n", [generate_password() for i in range(1000)])
