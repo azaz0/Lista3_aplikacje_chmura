@@ -5,7 +5,7 @@ level = input("Enter logging level [DEBUG, INFO, WARNING, CRITICAL, ERROR]: ").u
 
 
 def set_logging(log_format):
-    logging_level = getattr(logging, "DEBUG", None)
+    logging_level = getattr(logging, level, None)
     logging.basicConfig(level=logging_level, format=log_format)
     if level == "DEBUG":
         logging.debug('Protocol problem: %s', 'connection reset')
